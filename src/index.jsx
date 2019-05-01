@@ -8,12 +8,14 @@ import MethodBindingThis from "./components/methodBindingThis";
 import SetStateAndArguments from "./components/setStateAndArguments";
 import Counter from "./components/counter";
 import Counters from "./components/counters";
+import App from "./app";
 
 ReactDOM.render(
   // <ConditionalRender />,
   // <JsxObject />,
   // <MethodBindingThis />,
   // <SetStateAndArguments />,
-  <Counters />,
+  // <Counters />,
+  <App />,
   document.getElementById("root")
 );
